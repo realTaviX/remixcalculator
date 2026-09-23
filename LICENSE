@@ -1,40 +1,128 @@
-Roxy Team Proprietary License
+ROXY TEAM PROPRIETARY LICENSE
+
 Copyright (c) 2026 TaviX / Roxy Team
 All Rights Reserved.
 
-This software, including all source code, assets, designs, documentation,
-and related materials (the "Software"), is the exclusive property of
+1. OWNERSHIP
+
+This software, including its source code, design, assets, documentation,
+features, structure, visual elements, and related materials (the "Software"),
+is the exclusive property of TaviX and the Roxy Team.
+
+All intellectual property rights related to the Software are reserved by
 TaviX and the Roxy Team.
 
-Permission to use, access, modify, maintain, or develop the Software is
-granted only to authorized members of the Roxy Team.
+Access to the source code does not grant ownership, authorship, licensing,
+distribution, or commercialization rights.
 
-No person or organization outside the Roxy Team may, without prior written
-permission from TaviX or an authorized representative of the Roxy Team:
+2. AUTHORIZED USE
+
+Permission to access, use, modify, maintain, or develop the Software is
+granted only to authorized members of the Roxy Team or to persons expressly
+authorized by TaviX or an authorized representative of the Roxy Team.
+
+Any authorization may be revoked at any time.
+
+3. RESTRICTIONS
+
+Unless prior written permission is granted by TaviX or the Roxy Team,
+no person or organization may:
 
 - Copy or reproduce the Software;
-- Modify, adapt, or create derivative works from the Software;
-- Distribute, publish, sublicense, or share the Software;
-- Sell, rent, license, or commercially exploit the Software;
-- Reuse substantial portions of the source code in another project;
+- Modify or create derivative works;
+- Redistribute or republish the Software;
+- Sell, sublicense, rent, lease, or commercially exploit the Software;
+- Use substantial portions of the source code in another project;
+- Remove or alter copyright, ownership, or attribution notices;
 - Claim ownership or authorship of the Software;
-- Remove or alter copyright, ownership, or attribution notices.
+- Use the Software under another name, brand, company, or project;
+- Make unauthorized versions, forks, mirrors, or redistributions of the Software.
 
-Access to the source code does not grant any ownership or usage rights.
+4. UNAUTHORIZED USE
 
-Authorized Roxy Team members may use and modify the Software solely for
-projects, products, services, and activities approved by the Roxy Team.
+Any unauthorized copying, modification, distribution, publication,
+commercialization, or other use of the Software is prohibited.
 
-Any use outside these terms requires prior written permission from TaviX
-or an authorized representative of the Roxy Team.
+The owners reserve the right to request the removal, suspension, or
+discontinuation of unauthorized copies or distributions of the Software
+and to pursue any rights or remedies available under applicable law.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+5. USER RESPONSIBILITY
 
-IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR MEMBERS OF THE ROXY TEAM BE
-LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF
-THE SOFTWARE.
+Any person who uses, modifies, operates, distributes, or otherwise interacts
+with the Software is solely responsible for their own actions and for ensuring
+that their use complies with all applicable laws, regulations, platform rules,
+and third-party rights.
 
-Copyright (c) 2026 TaviX / Roxy Team.
+The Software must not be used for unlawful, fraudulent, abusive, harmful,
+or unauthorized activities.
+
+6. NO RESPONSIBILITY FOR THIRD-PARTY ACTIONS
+
+TaviX, the Roxy Team, its members, developers, contributors, and authorized
+representatives are not responsible for acts performed by users, third parties,
+unauthorized persons, modified versions, redistributed copies, or derivative
+versions of the Software.
+
+The owners do not authorize or endorse unlawful, abusive, fraudulent,
+harmful, or unauthorized use of the Software.
+
+Any person who misuses the Software does so under their own responsibility.
+
+7. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, RELIABILITY,
+AVAILABILITY, SECURITY, OR NON-INFRINGEMENT.
+
+8. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, TAVIX, THE ROXY TEAM,
+ITS MEMBERS, DEVELOPERS, CONTRIBUTORS, AND REPRESENTATIVES SHALL NOT BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES ARISING FROM OR RELATED TO:
+
+- The use or inability to use the Software;
+- Unauthorized use of the Software;
+- Modifications made by third parties;
+- Loss of data;
+- Loss of profits or business opportunities;
+- Security incidents;
+- Misuse of the Software;
+- Violations of law committed by users or third parties;
+- Distribution of unauthorized or modified versions of the Software.
+
+Nothing in this License excludes or limits liability where such exclusion
+or limitation is prohibited by applicable law.
+
+9. MODIFIED AND UNOFFICIAL VERSIONS
+
+The Roxy Team is not responsible for unofficial, modified, cracked, copied,
+redistributed, reverse-engineered, or otherwise altered versions of the Software
+that were not directly released or approved by the Roxy Team.
+
+10. THIRD-PARTY CONTENT
+
+Any third-party libraries, assets, software, trademarks, or other materials
+included in or used with the Software remain subject to their respective
+licenses, terms, and ownership rights.
+
+This License does not transfer ownership of third-party materials to the
+Roxy Team.
+
+11. TERMINATION
+
+Any permission granted under this License automatically terminates if the
+person or organization violates these terms.
+
+Upon termination, all unauthorized use, copying, modification, distribution,
+or access to the Software must cease immediately.
+
+12. RESERVATION OF RIGHTS
+
+Any right not expressly granted under this License is reserved by TaviX and
+the Roxy Team.
+
+Copyright (c) 2026 TaviX / Roxy Team
 All Rights Reserved.
