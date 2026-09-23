@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111216">
+  <title>Calculadora</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="backgroundDecor" aria-hidden="true"></div>
+
+  <main class="app">
+    <section class="calculator" aria-label="Calculadora">
+      <header class="top">
+        <div>
+          <div class="title">CALCULADORA</div>
+          <div class="subtitle">simples / científica</div>
+        </div>
+
+        <div class="topButtons">
+          <button class="smallButton" id="scientificButton" type="button" title="Modo científico">fx</button>
+          <button class="smallButton" id="historyButton" type="button" title="Histórico">◷</button>
+          <button class="smallButton" id="settingsButton" type="button" title="Personalização">⚙</button>
+        </div>
+      </header>
+
+      <section class="screen">
+        <div class="expression" id="expression"></div>
+        <input class="display" id="display" value="0" readonly aria-label="Resultado">
+      </section>
+
+      <section class="settings" id="settings">
+        <div class="settingRow">
+          <label for="themeSelect">Tema</label>
+          <select id="themeSelect">
+            <option value="dark">Escuro</option>
+            <option value="red">Vermelho</option>
+            <option value="blue">Azul</option>
+            <option value="purple">Roxo</option>
+            <option value="green">Verde</option>
+            <option value="light">Claro</option>
+          </select>
+        </div>
+
+        <div class="settingRow">
+          <label for="accentPicker">Cor da interface</label>
+          <input id="accentPicker" type="color" value="#e34d4d">
+        </div>
+
+        <div class="settingRow">
+          <label for="backgroundSelect">Papel de parede</label>
+          <select id="backgroundSelect">
+            <option value="none">Nenhum</option>
+            <option value="arcade">Arcade mix</option>
+            <option value="hearts">Corações</option>
+            <option value="stars">Estrelas</option>
+            <option value="mushrooms">Cogumelos</option>
+            <option value="diamonds">Diamantes</option>
+            <option value="treasure">Tesouros</option>
+            <option value="trophies">Troféus</option>
+          </select>
+        </div>
+
+
+        <div class="settingRow">
+          <label for="decorOpacity">Opacidade</label>
+          <input id="decorOpacity" type="range" min="5" max="35" step="1" value="15">
+        </div>
+      </section>
+
+      <section class="scientific" id="scientific">
+        <button class="key operator" data-scientific="sin" type="button">sin</button>
+        <button class="key operator" data-scientific="cos" type="button">cos</button>
+        <button class="key operator" data-scientific="tan" type="button">tan</button>
+        <button class="key operator" data-scientific="sqrt" type="button">√</button>
+
+        <button class="key operator" data-scientific="log" type="button">log</button>
+        <button class="key operator" data-scientific="ln" type="button">ln</button>
+        <button class="key operator" data-value="(" type="button">(</button>
+        <button class="key operator" data-value=")" type="button">)</button>
+
+        <button class="key operator" id="piButton" type="button">π</button>
+        <button class="key operator" id="eButton" type="button">e</button>
+        <button class="key operator" id="squareButton" type="button">x²</button>
+        <button class="key operator" data-value="**" type="button">xʸ</button>
+      </section>
+
+      <section class="buttons">
+        <button class="key clear" id="clearButton" type="button">C</button>
+        <button class="key" id="backspaceButton" type="button">⌫</button>
+        <button class="key operator" id="percentButton" type="button">%</button>
+        <button class="key operator" data-value="/" type="button">÷</button>
+
+        <button class="key" data-value="7" type="button">7</button>
+        <button class="key" data-value="8" type="button">8</button>
+        <button class="key" data-value="9" type="button">9</button>
+        <button class="key operator" data-value="*" type="button">×</button>
+
+        <button class="key" data-value="4" type="button">4</button>
+        <button class="key" data-value="5" type="button">5</button>
+        <button class="key" data-value="6" type="button">6</button>
+        <button class="key operator" data-value="-" type="button">−</button>
+
+        <button class="key" data-value="1" type="button">1</button>
+        <button class="key" data-value="2" type="button">2</button>
+        <button class="key" data-value="3" type="button">3</button>
+        <button class="key operator" data-value="+" type="button">+</button>
+
+        <button class="key" id="signButton" type="button">±</button>
+        <button class="key" data-value="0" type="button">0</button>
+        <button class="key" data-value="." type="button">,</button>
+        <button class="key equals" id="equalsButton" type="button">=</button>
+      </section>
+    </section>
+
+    <aside class="history" id="history" aria-label="Histórico">
+      <div class="historyTop">
+        <div>
+          <strong>Histórico</strong>
+          <small>clique para reutilizar</small>
+        </div>
+
+        <button class="clearHistory" id="clearHistoryButton" type="button">Limpar</button>
+      </div>
+
+      <div class="historyList" id="historyList"></div>
+    </aside>
+  </main>
+
+  <footer class="siteFooter">ROXY TEAM <span>© 2026</span></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
